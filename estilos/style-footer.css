@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.m-footer{
+    background-color: #061138;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+.container-footer{
+    max-width: 1350px;
+    margin: auto;
+}
+.footer .footer-line{
+    height: 1px;
+    width: 100%;
+    background-color: #999DAC;
+    display: block;
+    opacity: 0.6;
+}
+
+.footer .footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+/* .footer-menu .footer-logo{
+
+}
+.footer-menu .footer-buttons{
+    
+} */
+.footer-buttons ul{
+    list-style-type:none;
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    margin: 0;
+}
+.footer-buttons a{
+    text-decoration: underline;
+    text-decoration-color: #ffff;
+    color: #ffff;
+}
+.footer .footer-contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footer-contact p{
+    color: #999DAC;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footer-contact div{
+    width: 30%;
+}
+.footer-contact .footer-adress p{
+    font-size: 16px;
+}
+.footer-contact .footer-info{
+    text-align: left;
+}
+.footer-contact .footer-info a{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #999DAC;
+    font-size: 16px;
+}
+.footer-info .footer-tel{
+    font-size: 30px !important;
+    color: #ffff !important;
+    text-decoration: none;
+}
+.footer-contact .footer-description{
+    text-align: right;
+}
+.footer-description .desc{
+    color: #ffff;
+    font-size: 22px;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-copyright .footer-copyright-left p{
+    color: #999DAC;
+    font-size: 16px;
+}
+.footer-copyright .footer-copyright-right{
+    display: flex;
+    justify-content: center;
+    width: 210px;
+}
+.footer-copyright-right div{
+    padding: 0px 5px;
+}
+.footer-copyright-right div a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #152048;
+}
+.footer-copyright-right div a svg{
+    fill: #ffff;
+}
+.fb a svg{
+    width: 12px;
+    height: 23px;
+}
+.tw a svg{
+    width: 21px;
+    height: 18px;
+}
+.dr a svg{
+    width: 16;
+    height: 21px;
+}
+.insta a svg{
+    width: 18px;
+    height: 21px;
+}
+
+.fb a:hover{
+    background-color:#3b5998;
+}
+
+.tw a:hover{
+    background-color: #1da1f2;
+}
+
+.dr a:hover{
+    background-color: #ea4c89;
+}
+
+.insta a:hover{
+    background-color: #C862DC;
+}
